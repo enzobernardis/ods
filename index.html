@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logoODS.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>ODS</title>
+</head>
+
+<body>
+    <header>
+        <img class="logoODS" src="img/logoODS.png" alt="Logo da ODS">
+        <div>
+            <h1>ODS - Objetivos de Desenvolvimento Sustentável</h1>
+            <nav>
+                <a href="#introducao">Introdução</a>
+                <a href="#goals">Objetivos</a>
+            </nav>
+        </div>
+    </header>
+    <div class="carousel">
+        <button class="prev" onclick="prevImage()">&#10094;</button>
+        <div class="carousel-images">
+            <img src="img/OnuFlag.jpg" class="carousel-image" alt="Image 1">
+            <img src="img/enviroment.jpg" class="carousel-image" alt="Image 2">
+            <img src="img/tech.jpg" class="carousel-image" alt="Image 3">
+        </div>
+        <button class="next" onclick="nextImage()">&#10095;</button>
+    </div>
+    <main>
+        <div class="about">
+            <h1 id="introducao">Introdução</h1>
+            <p>As ODS (Objetivos de Desenvolvimento Sustentável) são uma agenda global estabelecida pela
+                ONU em <b>2015</b>, composta por 17 metas que visam promover o <b>desenvolvimento sustentável até
+                    2030</b>.
+                Elas abordam desafios globais como pobreza, desigualdade, mudanças climáticas, degradação ambiental,
+                paz e justiça. As ODS incluem objetivos como erradicar a fome, garantir educação de qualidade,
+                igualdade de gênero, acesso a água potável, crescimento econômico sustentável, e combater as
+                alterações climáticas. A implementação dessas metas é responsabilidade de governos, empresas
+                e sociedade civil em todo o mundo.
+            </p>
+        </div>
+        <section id="goals">
+            <div>
+                <article class="ods" id="ods1">
+                    <button class="buttonDropdown" onclick="openModal(1)">Mostrar mais</button>
+                </article>
+
+                <article class="ods" id="ods2">
+                    <button class="buttonDropdown" onclick="openModal(2)">Mostrar mais</button>
+                </article>
+
+                <article class="ods" id="ods3">
+                    <button class="buttonDropdown" onclick="openModal(3)">Mostrar mais</button>
+                </article>
+            </div>
+
+            <div>
+                <article class="ods" id="ods4">
+                    <button class="buttonDropdown" onclick="openModal(4)">Mostrar mais</button>
+                </article>
+
+                <article class="ods" id="ods5">
+                    <button class="buttonDropdown" onclick="openModal(5)">Mostrar mais</button>
+                </article>
+
+                <article class="ods" id="ods6">
+                    <button class="buttonDropdown" onclick="openModal(6)">Mostrar mais</button>
+                </article>
+            </div>
+
+            <div>
+                <article class="ods" id="ods7">
+                    <button class="buttonDropdown" onclick="openModal(7)">Mostrar mais</button>
+                </article>
+
+                <article class="ods" id="ods8">
+                    <button class="buttonDropdown" onclick="openModal(8)">Mostrar mais</button>
+                </article>
+
+                <article class="ods" id="ods9">
+                    <button class="buttonDropdown" onclick="openModal(9)">Mostrar mais</button>
+                </article>
+            </div>
+
+            <div>
+                <article class="ods" id="ods10">
+                    <button class="buttonDropdown" onclick="openModal(10)">Mostrar mais</button>
+                </article>
+
+                <article class="ods" id="ods11">
+                    <button class="buttonDropdown" onclick="openModal(11)">Mostrar mais</button>
+                </article>
+
+                <article class="ods" id="ods12">
+                    <button class="buttonDropdown" onclick="openModal(12)">Mostrar mais</button>
+                </article>
+            </div>
+
+            <div>
+                <article class="ods" id="ods13">
+                    <button class="buttonDropdown" onclick="openModal(13)">Mostrar mais</button>
+                </article>
+
+                <article class="ods" id="ods14">
+                    <button class="buttonDropdown" onclick="openModal(14)">Mostrar mais</button>
+                </article>
+
+                <article class="ods" id="ods15">
+                    <button class="buttonDropdown" onclick="openModal(15)">Mostrar mais</button>
+                </article>
+            </div>
+
+            <div>
+                <article class="ods" id="ods16">
+                    <button class="buttonDropdown" onclick="openModal(16)">Mostrar mais</button>
+                </article>
+
+                <article class="ods" id="ods17">
+                    <button class="buttonDropdown" onclick="openModal(17)">Mostrar mais</button>
+                </article>
+            </div>
+        </section>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <h1 id="modal-title">Título</h1>
+                <p id="modal-text">Este é o texto exibido no modal.</p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <h4>Links Relacionados</h4>
+                <ul>
+                    <li><a href="https://brasil.un.org/pt-br">Site oficial da ONU</a></li>
+                    <li><a href="https://brasil.un.org/pt-br/sdgs">Objetivos de Desenvolvimento Sustentável</a></li>
+                </ul>
+            </div>
+            <div class="footer-rights">
+                <h3>&copy; !Binary</h3>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
